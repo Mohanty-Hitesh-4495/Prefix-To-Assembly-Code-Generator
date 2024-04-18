@@ -25,32 +25,32 @@ To get started with the Hospital Management System, follow these steps:
 **Installation:**
 - **Clone the Repository:**
   ```bash
-    git clone https://github.com/your-username/Prefix-To-Assembly-Code-Generator.git
+  git clone https://github.com/your-username/Prefix-To-Assembly-Code-Generator.git
   ```
 - **Navigate to the Project Directory:**  
   ```bash
-     cd Prefix-To-Assembly-Code-Generator
+  cd Prefix-To-Assembly-Code-Generator
   ```
 - **Compile the Program:**   
   ```bash
-     gcc -o converter Prefix_to_Assembly_Code.c
+  gcc -o Prefix_to_Assembly_Code.c
   ```
 
 **Usage**
 - **Run the Program:**
   ```bash
-    ./Prefix_to_Assembly_Code
+  ./Prefix_to_Assembly_Code
   ```
 - **Enter a Prefix Expression:**
   ```bass
-    Enter a prefix expression (operator operand1 operand2):
+  Enter a prefix expression (operator operand1 operand2):
     Example: + 10 20
   ```
 - **Example**
   ```bash
-    Enter a prefix expression (operator operand1 operand2): + 10 20
-    add eax, 10
-    add eax, 20
+  Enter a prefix expression (operator operand1 operand2): + 10 20
+  add eax, 10
+  add eax, 20
   ```
 **Contributing**  
 ------------------
